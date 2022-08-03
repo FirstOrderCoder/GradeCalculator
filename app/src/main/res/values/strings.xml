@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HW4</string>
+    <string name="enter_grade">Please enter your test scores:</string>
+    <string name="test_1">Test 1:</string>
+    <string name="test_2">Test 2:</string>
+    <string name="test_1_input">Enter test grade here</string>
+    <string name="test_2_input">Enter test grade here</string>
+    <string name="student_type">Please select your student type:</string>
+    <string name="undergrad_op">Undergraduate</string>
+    <string name="grad_op">Graduate</string>
+    <string name="calc_grade">CALCULATE GRADE</string>
+</resources>
