@@ -9,4 +9,6 @@
     <string name="undergrad_op">Undergraduate</string>
     <string name="grad_op">Graduate</string>
     <string name="calc_grade">CALCULATE GRADE</string>
+    <string name="your_grade">Your grade is</string>
+    <string name="return_main">RETURN</string>
 </resources>

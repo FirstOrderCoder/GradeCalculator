@@ -56,10 +56,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/test1_input"
         android:layout_width="130dp"
         android:layout_height="48dp"
         android:hint="@string/test_1_input"
+        android:inputType="number"
         android:textColorHint="@color/purple_500"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/test1View"
@@ -67,7 +68,8 @@
         app:layout_constraintHorizontal_bias="0.013"
         app:layout_constraintStart_toEndOf="@+id/test1View"
         app:layout_constraintTop_toTopOf="@+id/test1View"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintVertical_bias="0.423"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
         android:id="@+id/test2View"
@@ -94,22 +96,23 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
+        app:layout_constraintTop_toBottomOf="@+id/test1_input">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText2"
+        android:id="@+id/test2_input"
         android:layout_width="133dp"
         android:layout_height="48dp"
         android:hint="@string/test_2_input"
+        android:inputType="number"
         android:textColorHint="@color/purple_500"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textInputLayout"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/test2View"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
+        app:layout_constraintTop_toBottomOf="@+id/test1_input"
         app:layout_constraintVertical_bias="0.039" />
 
     <TextView
@@ -141,14 +144,14 @@
         app:layout_constraintTop_toBottomOf="@+id/student_Type">
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/undergrad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/undergrad_op"
             android:textSize="16sp" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/grad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/grad_op"
@@ -156,7 +159,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/calculate"
         android:layout_width="192dp"
         android:layout_height="48dp"
         android:layout_marginStart="68dp"
